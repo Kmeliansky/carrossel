@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrossel{
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: mandatory;
+    scrollbar-width: none;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: #D6E4FF;
+    background-color: #3366FF;
+}
+p{
+    margin: 5%;
+}
+section{
+    text-align: center;
+    background-color: #69F1FF;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin: 5%;
+}
